@@ -60,21 +60,22 @@
             android:id="@+id/button5"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
-            android:background="#dff9fb"
-            android:text="5"
+            android:background="#1e3799"
+            android:text="5-6"
+            android:layout_span="2"
             android:textColor="#FFFFFF"
             android:textStyle="bold"
             android:textSize="40sp" />
 
-        <Button
-            android:id="@+id/button6"
-            android:layout_width="80dp"
-            android:layout_height="wrap_content"
-            android:background="#f9ca24"
-            android:text="6"
-            android:textColor="#FFFFFF"
-            android:textStyle="bold"
-            android:textSize="40sp" />
+<!--        <Button-->
+<!--            android:id="@+id/button6"-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="#f9ca24"-->
+<!--            android:text="6"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="40sp" />-->
     </TableRow>
 
     <TableRow
@@ -98,6 +99,16 @@
             android:layout_column="2"
             android:background="#eb4d4b"
             android:text="8"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="#38ada9"
+            android:text="9"
             android:textColor="#FFFFFF"
             android:textStyle="bold"
             android:textSize="40sp" />
