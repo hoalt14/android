@@ -16,14 +16,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="30sp"
-            android:text="@={Integer.toString(product.productCode)}" />
+            android:text="@{Integer.toString(product.productCode)}" />
 
         <EditText
             android:id="@+id/edtProductName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="30sp"
-            android:text="@={product.productName}" />
+            android:text="@{product.productName}" />
 
         <Button
             android:id="@+id/btnChange"
