@@ -5,49 +5,37 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="10dp"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nhận xét công cụ Android Studio:"
+        android:text="Bạn thích xem phim ở ứng dụng:"
         android:textSize="25sp"
         android:textColor="#0c2461"
         android:background="#b8e994" />
 
-    <RadioGroup
-        android:id="@+id/radgDanhGia"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+    <CheckBox
+        android:id="@+id/chkK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="K+"
+        android:textSize="30sp"/>
 
-        <RadioButton
-            android:id="@+id/radTuongDoi"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tương đối tốt"
-            android:textSize="30sp" />
+    <CheckBox
+        android:id="@+id/chkFilm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Film+"
+        android:textSize="30sp"/>
 
-        <RadioButton
-            android:id="@+id/radTot"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tốt"
-            android:textSize="30sp" />
-
-        <RadioButton
-            android:id="@+id/radRatTot"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Rất tốt"
-            android:textSize="30sp" />
-
-        <RadioButton
-            android:id="@+id/radTuyetVoi"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tuyệt Vời"
-            android:textSize="30sp" />
-    </RadioGroup>
+    <CheckBox
+        android:id="@+id/chkClipTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ClipTV"
+        android:textSize="30sp"/>
 
     <Button
         android:id="@+id/btnConfirm"
@@ -66,7 +54,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#38ada9"
-        android:text="Bạn đã đánh giá:"
+        android:text="Bạn đã chọn:"
         android:textSize="25sp"
         android:textColor="#0c2461"/>
 
