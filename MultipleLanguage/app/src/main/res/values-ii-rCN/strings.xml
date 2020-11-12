@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">多國語言</string>
+    <string name="email">電子郵件地址:</string>
+    <string name="enter_your_email">輸入你的電子郵箱</string>
+</resources>

@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
                 .setAutoCancel(true)
                 .setOnlyAlertOnce(true)
                 .setColor(Color.GREEN)
-                .addAction(R.mipmap.ic_launcher, "Show", actionIntent)
+                .addAction(R.mipmap.ic_launcher, "Show", actionIntent).
                 .build();
 
         notificationManagerCompat.notify(1, notification);

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ListViewBasic</string>
+    <string name="show_foods">Show Foods</string>
+    <string name="show_drinks">Show Drinks</string>
+    <string name="shopping">Shopping</string>
+    <string name="enter_product_name">Enter Product Name</string>
+    <string name="enter_color">Enter Color</string>
+    <string-array name="arrFoods">
+        <item>Bò né</item>
+        <item>Phở</item>
+        <item>Cơm tấm</item>
+        <item>Bánh mì</item>
+        <item>Lẫu gà</item>
+    </string-array>
+</resources>
