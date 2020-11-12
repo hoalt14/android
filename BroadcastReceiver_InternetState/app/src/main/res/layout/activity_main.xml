@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imvConnectionState"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_baseline_wifi_24"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/txtConnectionState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connection State"
+        android:textSize="26sp"
+        android:textColor="#44bd32"
+        android:layout_marginTop="15dp"
+        android:gravity="center" />
+
+</LinearLayout>
