@@ -25,15 +25,15 @@
             android:id="@+id/btnChangeImage"
             android:layout_width="100dp"
             android:layout_height="50dp"
-            android:background="@drawable/ic_image_change"
-            android:onClick="changeImage"/>
+            android:background="@drawable/ic_image_change" />
+<!--            android:onClick="changeImage"/>-->
 
         <ImageButton
             android:id="@+id/btnCloseImage"
             android:layout_width="100dp"
             android:layout_height="50dp"
-            android:background="@drawable/ic_image_close"
-            android:onClick="closeImage"/>
+            android:background="@drawable/ic_image_close" />
+<!--            android:onClick="closeImage"/>-->
 
     </LinearLayout>
 
